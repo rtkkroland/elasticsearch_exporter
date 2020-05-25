@@ -14,13 +14,12 @@
 package main
 
 import (
+	"context"
 	"net/http"
 	"net/url"
 	"os"
 	"os/signal"
 	"time"
-
-	"context"
 
 	"github.com/go-kit/kit/log/level"
 	"github.com/prometheus-community/elasticsearch_exporter/collector"
