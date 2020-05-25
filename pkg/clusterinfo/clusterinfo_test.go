@@ -25,9 +25,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/blang/semver/v4"
 	"github.com/go-kit/kit/log"
-
-	"github.com/blang/semver"
 )
 
 const (
