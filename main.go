@@ -61,7 +61,7 @@ func main() {
 			"Export stats for mappings of all indices of the cluster.").
 			Default("false").Envar("ES_INDICES_MAPPINGS").Bool()
 		esExportRemoteInfo = kingpin.Flag("es.remote_info",
-			"Export remote info for Cross Cluster.").
+			"Export stats associated with configured remote clusters.").
 			Default("false").Envar("ES_REMOTE_INFO").Bool()
 		esExportClusterSettings = kingpin.Flag("es.cluster_settings",
 			"Export stats for cluster settings.").
